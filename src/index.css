@@ -58,7 +58,7 @@ body {
 }
 .modal input:focus {
     outline: none;
-    box-shadow: 4px 10px 4px -7px rgb(129, 188, 228);;
+    box-shadow: 2px 10px 4px -7px rgb(129, 188, 228);;
 }
 .modal textarea:focus {
     outline: none;
