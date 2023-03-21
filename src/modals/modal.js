@@ -19,6 +19,7 @@ function Modal(props) {
     useEffect (
         setinputs, [props.show]
     )
+    let input = useRef()
     return <>
      <div id="modal" className={props.show ? "show" : "hide"}>
         <div className="overlay" >
@@ -28,7 +29,7 @@ function Modal(props) {
                 <div className="close" onClick={props.close}>x</div >
                <label htmlFor="title" id="titlel">Title:</label>
                 <input required type="Text" placeholder="Task title" 
-                id="title" name="title"
+                id="title" name="title" ref={input}
                  value= {title}
                  onChange={(event) => settitle(event.target.value)}
                  ></input>
