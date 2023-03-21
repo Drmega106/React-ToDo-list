@@ -44,7 +44,7 @@ body {
     border: none;
     border-bottom: 1px solid rgb(129, 188, 228) ;
 }
-.moda input:required {
+.modal input:required {
     border-bottom: 1px solid rgb(207, 78, 61) ;
     box-shadow: 0px 10px 12px -7px rgba(204,53,45,0.72);;
 }
