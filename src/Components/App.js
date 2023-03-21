@@ -12,7 +12,6 @@ function App() {
     let [showmodal, setshowmodal] = useState(false);
     let [showEditmodal, setshowEditmodal] = useState(false);
     let [idx, setidx] = useState('')
-    let index = idx;
     let [tasks, settasks] = useState(localStorage.tasks? JSON.parse(localStorage.tasks) : [])
 
     function addtolocal(tasks) {
