@@ -38,7 +38,7 @@ function Modal(props) {
                 id="des"
                 value = {desc}
                 onChange = {(e) => setdesc(e.target.value)}></textarea>
-                <button type="submit" className="savebtn" onClick={() => props.addtask(taskinfo)}>Save</button>
+                <button type="submit" className="savebtn" onClick={ () => input.current.value !== "" || undefined ? props.editthetask(taskinfo) : false }>Save</button>
                 <button type="reset" className="resetbtn" onClick={setinputs}>Reset</button>
                </form>
         </div>
