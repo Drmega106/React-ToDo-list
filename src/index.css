@@ -39,7 +39,7 @@ body {
 
 
 .modal input {
-    font-size: 22px
+    font-size: 27px
     padding: 5px;
     margin-top: 10px;
     border: none;
@@ -47,7 +47,7 @@ body {
 }
   
 .modal textarea {
-    font-size: 20px;
+    font-size: 25px;
     padding: 5px;
     margin-top: 10px;
     border: none;
@@ -72,7 +72,7 @@ body {
     margin-top: 20px;
     color: rgb(26, 95, 184);
     font-weight: 700;
-    font-size: 25px;
+    font-size: 32px;
    
 }
 .hide {
@@ -147,7 +147,7 @@ body {
 .taskcount {
     width: fit-content;
     color: white;
-    font-size: 33px;
+    font-size: 37px;
     font-weight: 500;
     margin: 20px auto;
 }
@@ -207,17 +207,17 @@ body {
 }
 .tasknum{
     color: var(--btn-color);
-    font-size: 27px;
+    font-size: 32px;
     font-weight: 700;
 }
 .taskname {
     padding: 5px;
-    font-size: 25px;
+    font-size: 30px;
     border-bottom: solid 1px #eee;
 }
 .taskdes {
     padding: 5px 15px 25px 5px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .deletebtn {
     position: absolute;
@@ -275,7 +275,7 @@ body {
     background-color: white;
     position: relative;
     overflow-wrap: normal;
-    font-size : 25 px;
+    font-size : 30px;
     transition : display, 0,5s;
 }
   
