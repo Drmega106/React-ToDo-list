@@ -39,7 +39,7 @@ body {
 
 
 .modal input {
-    font-size: 27px
+    font-size: 27px;
     padding: 5px;
     margin-top: 10px;
     border: none;
@@ -279,17 +279,3 @@ body {
     font-size : 30px;
     transition : display, 0,5s;
 }
-  
-
-@media (max-width: 600px) {
-    .taskinput input {
-        width: 240px;
-    };
-    .taskinput .btn {
-        width: 35px;
-    };
-    .task {
-        width : 310px;
-        margin: 10px auto;
-    };
-};
