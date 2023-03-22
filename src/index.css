@@ -196,7 +196,7 @@ body {
 .task {
     width: 400px;
     margin: 20px;
-    max-height: 320px;
+    max-height: fit-content;
     position: relative;
     white-space: pre-wrap;
 }
