@@ -39,7 +39,7 @@ body {
 
 
 .modal input {
-    font-size: 27px;
+    font-size: 20px;
     padding: 5px;
     margin-top: 10px;
     border: none;
@@ -47,7 +47,7 @@ body {
 }
   
 .modal textarea {
-    font-size: 25px;
+    font-size: 18px;
     padding: 5px;
     margin-top: 10px;
     border: none;
@@ -72,7 +72,7 @@ body {
     margin-top: 20px;
     color: rgb(26, 95, 184);
     font-weight: 700;
-    font-size: 32px;
+    font-size: 25px;
    
 }
 .hide {
@@ -129,7 +129,7 @@ body {
 }
 @media (max-width : 772px) {
     .modal {
-        width: 90vw;
+        width: 80vw;
         height: fit-content;
         top: 25px;
         left: 15vw;
