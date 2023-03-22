@@ -129,12 +129,13 @@ body {
 }
 @media (max-width : 772px) {
     .modal {
-        width: 70vw;
+        width: 90vw;
         height: fit-content;
         top: 25px;
         left: 15vw;
         margin: auto;
         transform: initial;
+        transition: 0.3s ;
     }
 }
 
@@ -202,7 +203,7 @@ body {
         flex-direction: column;
     }
     .task {
-        width: 65vw;
+        width: 80vw;
     }
 }
 .tasknum{
